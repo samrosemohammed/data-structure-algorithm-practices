@@ -122,3 +122,14 @@ const minMaxSum = (array) => {
     return {min, max, totalMinSum, totalMaxSum};
 }
 console.log(minMaxSum([1,3,5,7,9]))
+
+// Find factorail of n number
+const findFactorial = (number) => {
+    let factorail = 1;
+    for (let i=1; i <= number; i++) {
+        factorail *= i;
+    }
+    return factorail;
+}
+
+console.log(findFactorial(4))
